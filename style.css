@@ -1,0 +1,45 @@
+nav img{
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: scale-down;
+    border-radius: 50%;
+}
+main{
+    text-align: center;
+}
+#codes{
+    width: 98%;
+    min-height: 280px;
+    border-radius: 16px;
+    border: 2px solid rgb(32, 28, 28);
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons button{
+    width: 47%;
+    border-radius: 12px;
+    border: 0px;
+    padding: 12px;
+}
+
+#remove{
+    background-color: rgb(221, 60, 60);
+    color: white;
+}
+#play{
+    background-color: rgb(14, 11, 11) ;
+    color: white;
+}
+#title-result{
+    padding: 12px;
+    margin: 8px 0px ;
+    border-bottom: 2px solid rgb(32, 28, 28);
+    font-weight: bold;
+
+}
+
+#result{
+    max-width: 100% !important;
+}
